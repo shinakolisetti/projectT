@@ -19,9 +19,13 @@
 
     <!-- Custom CSS -->
     <link href="css/test2.css" rel="stylesheet">
+    <link href="css/alert.css" rel="stylesheet">
 
 </head>
 <body>
+    <div class="scroll-right">
+      <p><strong>Alert !</strong> Please check notification box below</p>
+    </div>
     <!--   Heading   -->
     <div class = "brand"> Rutgers Tennis Club </div>
 
@@ -46,7 +50,7 @@
                     <li><a href="test2.html">Schedule</a></li>
                     <li><a href="#">Achievements</a></li>
                     <li><a href="#">Roster</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div> <!-- container-->
@@ -62,9 +66,23 @@
                     <h1 class = "brand-before"><small> Fall 2015 Calendar</small></h1>
                     <h1 class = "brand-name">September</h1>
                     <hr class = "tagline-divider">
-
+           
                     <div class = "row">
-                        <div class = "box">
+                        <div class = "box2">
+                            <div class = "col-md-4 text-center">
+                                <h1 ><small> September Events</small></h1>
+                                <hr class = "tagline-divider">
+                                    <li class = "popup">Hi today we are playing tennis</li>
+                                    <hr id="para">
+                                    <li class = "day5">Hi today we are playing tennis on day 5 too yo!</li>
+                                    <hr id="para">
+                                    <hr id="para">
+                                    <hr id="para">
+                                    <hr id="para">
+                                    <hr id="para">
+                                    <hr id="para">
+                                    <hr id="para">
+                            </div><!--cl4-->
                             <div class = "col-md-8 text-center">
                                 <ol class = "calendar" start="9">
                                     <li id = "days">
@@ -88,11 +106,11 @@
 
                                     <li id = "thismonth">
                                       <ol>
-                                        <li class = "btn" id ="show">1</li>
+                                        <li class = "btn" id ="show">1<strong>*</strong></li>
                                         <li class = "btn">2</li>
                                         <li class = "btn">3</li>
                                         <li class = "btn">4</li>
-                                        <li class = "btn" id ="5">5</li>
+                                        <li class = "btn" id ="day5">5<strong>*</strong></li>
                                         <li class = "btn">6</li>
                                         <li class = "btn">7</li>
                                         <li class = "btn">8</li>
@@ -128,15 +146,10 @@
                                         <li class = "btn">3</li>
                                       </ol>
                                     </li>
+                                    <p> <strong>*</strong>click for information </p>
                                 </ol><!--calendar-->
                             </div> <!--cl8-->
 
-                            <div class = "col-md-4 text-center">
-                                <div class ="list">
-                                    <li class = "popup">Hi today we are playing tennis</li>
-                                    <li class = "day5">Hi today we are playing tennis on day 5 too yo!</li>
-                                  </div>
-                            </div><!--cl4-->
                         </div> <!-- box -->
                     </div> <!-- row  -->
                     
@@ -150,7 +163,7 @@
         <div class = "box">
             <div class = "col-lg-12">
                 <hr>
-                <h2 class = "intro-text text-center"> <strong>Fall</strong> Semester <strong> 2015 </strong></h2>
+                <h2 class = "intro-text text-center"><small> Events for Semester 2015 </small></h2>
                 <hr>
                 
             </div>
@@ -165,7 +178,7 @@
             $("#show").click(function(){
               $('.popup').fadeToggle(1000);
             });
-            $("#5").click(function(){
+            $("#day5").click(function(){
               $('.day5').fadeToggle(1000);
             });
         });
