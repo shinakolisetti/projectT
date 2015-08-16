@@ -199,11 +199,11 @@ h2.intro-text.text-center{
 }
 
 .pic {
-  border: 10px solid #fff;  
+  border: 5px solid #fff;  
   float: left;
-  height: 300px;
-  width: 300px;
-  margin: 20px;
+  height: 174px;
+  width: 174px;
+  margin: 4px;
   overflow: hidden;
    
   -webkit-box-shadow: 5px 5px 5px #111;
@@ -213,6 +213,7 @@ h2.intro-text.text-center{
     border-radius: 50%;
 }
  
-.morph:hover {
-  
+.morph img:hover {
+    width:200px;
+    height:200px;
 }
