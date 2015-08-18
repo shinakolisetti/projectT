@@ -1,5 +1,5 @@
 body{
-	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     background: url("backg1.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -59,30 +59,30 @@ hr#para {
     font-weight: 400;
     letter-spacing: 3px;
 }
-	/* This makes the nav bar home, etc highlight red */
+    /* This makes the nav bar home, etc highlight red */
 .nav>li>a:hover {
     text-decoration: none;
     color: crimson;
     background: rgb(238, 238, 238);
     background-color: rgba(238, 238, 238, 0);
 }
-	/* When not hovered it says white */
+    /* When not hovered it says white */
 a{
     color:white;
 }
-	/* This tag makes the toggle lines white or you can't see them */
+    /* This tag makes the toggle lines white or you can't see them */
 .navbar-toggle .icon-bar {
     background-color: white;
 }
 
 /* ------------------------- End of Nav bar ----------------*/
-		/*This is for the welcome to rutgers text*/
+        /*This is for the welcome to rutgers text*/
 .brand-name {
     margin: 0;
 }
-		/*The warning text*/
+        /*The warning text*/
 p#attention{
-	color: red; 
+    color: red; 
 }
 p {
     font-size: 1.25em;
@@ -170,9 +170,9 @@ p {
         clear: both;
     }
 }
-.box2 {
+/*.box2 {
     background: transparent;
-}
+}*/
 ol.calendar {
     padding: inherit;
 }
@@ -211,7 +211,7 @@ li.btn{
 li li.holiday{
 
 }
-.popup, .day5 {
+.day7, .day19 {
     display: none;
     font-weight: 600;
 }
@@ -264,8 +264,8 @@ li.meep {
 }
 @media only screen and (max-width: 640px){
     li li{
-        width: 3em;
-        height:3em;
+        width: 4em;
+        height:4em;
         float:left;
         margin:.2em;
         padding:.2em;

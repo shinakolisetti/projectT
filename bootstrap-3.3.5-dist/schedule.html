@@ -72,11 +72,10 @@
                             <div class = "col-md-4 text-center">
                                 <h1 ><small> September Events</small></h1>
                                 <hr class = "tagline-divider">
-                                    <li class = "popup">Hi today we are playing tennis</li>
                                     <hr id="para">
-                                    <li class = "day5">Hi today we are playing tennis on day 5 too yo!</li>
+                                    <li class = "day7">Involvement Fair</li>
                                     <hr id="para">
-                                    <hr id="para">
+                                    <li class = "day19">Battle of Sections tournament</li>
                                     <hr id="para">
                                     <hr id="para">
                                     <hr id="para">
@@ -106,13 +105,13 @@
 
                                     <li id = "thismonth">
                                       <ol>
-                                        <li class = "btn" id ="show">1<strong>*</strong></li>
+                                        <li class = "btn">1</li>
                                         <li class = "btn">2</li>
                                         <li class = "btn">3</li>
                                         <li class = "btn">4</li>
-                                        <li class = "btn" id ="day5">5<strong>*</strong></li>
+                                        <li class = "btn">5</li>
                                         <li class = "btn">6</li>
-                                        <li class = "btn">7</li>
+                                        <li class = "btn" id ="day7">7<strong>*</strong></li>
                                         <li class = "btn">8</li>
                                         <li class = "btn">9</li>
                                         <li class = "btn">10</li>
@@ -124,7 +123,7 @@
                                         <li class = "btn">16</li>
                                         <li class = "btn">17</li>
                                         <li class = "btn">18</li>
-                                        <li class = "btn">19</li>
+                                        <li class = "btn" id = "day19">19<strong>*</strong></li>
                                         <li class = "btn">20</li>
                                         <li class = "btn">21</li>
                                         <li class = "btn">22</li>
@@ -165,7 +164,67 @@
                 <hr>
                 <h2 class = "intro-text text-center"><small> Events for Fall Semester 2015 </small></h2>
                 <hr>
-                
+                 <div class = "row">
+                    <div class = "box">
+                        <!-- ====================== Involvement Fair ================= -->
+                        <div class = "col-lg-7" id = "members">
+                           <h3>Involvement Fair</h3>
+                           <p> Come by our table when you attened the involvement fair, meet us, talk to us, share some cool things about yourself!</p>
+                           <p><strong> Date:</strong> September 7th </p>
+                           <p><strong> Time:</strong> 12pm to 4 pm </p> 
+                           <p><strong> Venue:</strong> TBH </p> 
+                            
+                        </div>
+
+                        <div class = "col-lg-5" id = "members">
+                          <img class="img-responsive img-border img-right" src="images/Invol.png" alt="">     
+                        </div>     
+                    
+                        <!-- ======================== Tryouts ================-->
+                        <div class = "col-lg-5" id = "members">     
+                        </div>
+
+                        <div class = "col-lg-7" id = "members">
+                            <h3>Tryouts Fall 2015</h3>
+                            <p> We will be holding try outs for Rutgers students, faculty, and staff that want to play tennis competitively! </p>
+                            <p> If you are interested in trying out, please contact us through email or talk to us at the Involvement Fair</p>
+                            <p><strong>Date: </strong> <i>September 12th and 13th</i></p>
+                            <p><strong>Time: </strong> TBH</p> 
+                            <p><strong>Venue:</strong> TBH </p> 
+                            
+                        </div>
+
+                        <!-- ======================== Practices ===============-->
+                        <div class = "col-lg-7" id = "members">
+                           <h3>Practices Fall 2015</h3>
+                           <p> Outdoor practices will be starting soon, and will be held on Livingston courts or Cook Courts. Soon we will be moving into indoor courts so saty tuned of that day!</p>
+                           <p><strong> Date:</strong> September 14th onwards </p>
+                           <p><strong> Time:</strong> 9pm to 11pm </p> 
+                           <p><strong> Venue:</strong> Livi or Cook </p> 
+                            
+                        </div>
+
+                        <div class = "col-lg-5" id = "members">
+                             
+                        </div>     
+                        <!-- ========================Battle of sections =======-->
+                        <div class = "col-lg-5" id = "members">
+                            <img class="img-responsive img-border img-left" src="images/battles.jpg" alt="">       
+                        </div>
+
+                        <div class = "col-lg-7" id = "members">
+                           <h3>Battle of Sections</h3>
+                           <p> Rutgers Travel Team will be representing USTA Eastern and will be competing against different Universities from Four USTA Section (USTA Mid-Atlantic, USTA Eastern, USTA Middle States and USTA Eastern) </p>
+                           <p><strong> September 19th-20th </strong></p>
+                           <p><strong> Sea Colony, Delaware</strong></p> 
+
+                           <p><strong>*</strong><small>Travel team members only (Want to play competitively, try out for the travel team)</small></p>
+                            
+                        </div>
+
+                    </div> <!-- box1 -->
+                </div> <!-- row -->
+
             </div>
         </div> <!-- box1 -->
     </div> <!-- row -->
@@ -175,11 +234,11 @@
 
     <script type="text/javascript">
         $(document).ready(function(){
-            $("#show").click(function(){
-              $('.popup').fadeToggle(1000);
+            $("#day7").click(function(){
+              $('.day7').fadeToggle(1000);
             });
-            $("#day5").click(function(){
-              $('.day5').fadeToggle(1000);
+            $("#day19").click(function(){
+              $('.day19').fadeToggle(1000);
             });
         });
     </script>
