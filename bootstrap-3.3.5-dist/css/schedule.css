@@ -261,6 +261,7 @@ li.meep {
     border-color: #999999;
     margin-left: auto;
     margin-right: auto;
+    }
 }
 @media only screen and (max-width: 640px){
     li li{
@@ -272,7 +273,4 @@ li.meep {
         overflow: auto;
         background: rgba(255, 233, 191, 0.7); 
     }
-}
-
-
 }
