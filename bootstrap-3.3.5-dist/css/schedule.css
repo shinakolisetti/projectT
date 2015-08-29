@@ -118,7 +118,7 @@ p {
 }
 */
 /*--------------------Box color and size-------------------*/
-.box,.box2 {
+.box{
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
