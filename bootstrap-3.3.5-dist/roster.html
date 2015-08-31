@@ -111,7 +111,8 @@
                 </div>
             </div> <!-- box1 -->
         </div> <!-- row -->
-    </div> <!-- ========= container ===========-->   
+    </div> <!-- ========= container ===========-->
+   
     <script type="text/javascript">
     $(document).ready(function() {
         $(".item").click(function (e) {
@@ -120,6 +121,7 @@
           $(this).toggleClass("clicked");
           $("body").addClass("showing-item");
         });
+
         $('html').click(function() {
            $(".item").removeClass("clicked");
            $("body").removeClass("showing-item");
