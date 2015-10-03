@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Fonts -->
     <link href=' http://fonts.googleapis.com/css?family=Open+Sans|Josefin+Slab' rel='stylesheet' type='text/css'>
@@ -70,8 +71,8 @@
                     <div id="carousel-example-generic" class="carousel slide">
                         <!-- Indicators -->
                         <ol class="carousel-indicators hidden-xs">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="0"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                         </ol>
 
@@ -80,10 +81,10 @@
                                 <img class = "img-responsive img-full" src = "images/rec.jpg" alt="">
                            </div>
                            <div class = "item">
-                                <img class = "img-responsive img-full" src = "images/backg.jpg" alt="">
+                                <img class = "img-responsive img-full" src = "images/battles2.jpg" alt="">
                            </div>
                            <div class = "item">
-                                <img class = "img-responsive img-full" src = "images/backg3.jpg" alt="">
+                                <img class = "img-responsive img-full" src = "images/pic1.jpg" alt="">
                            </div> 
                         </div>
                     </div><!-- carousel div -->
@@ -164,7 +165,11 @@
     </div> <!-- row -->
     </div> <!-- ========= container ===========-->   
 
-    
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 
+    })
+    </script>
 
     
 

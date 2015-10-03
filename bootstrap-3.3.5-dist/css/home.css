@@ -6,6 +6,9 @@ body{
     background-size: cover;
     -o-background-size: cover;
 }
+img {
+    object-fit: cover;
+}
 
 /* ----------------- h1 and h2 tags for font reasons and letter spacing pretty straight forward-------------------*/
 h1, h2{
@@ -68,7 +71,7 @@ a{
 }
 
 /* ------------------------- End of Nav bar ----------------*/
-		/*This is for the welcom to rutgers text*/
+		/*This is for the welcome to rutgers text*/
 .brand-name {
     margin: 0;
 }
