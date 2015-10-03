@@ -1,0 +1,276 @@
+body{
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url("backg1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* ----------------- h1 and h2 tags for font reasons and letter spacing pretty straight forward-------------------*/
+h1, h2{
+    text-transform: uppercase;
+    font-family: "Cinzel Decorative","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: inherit;
+}
+/*----- open when paragraph is used*/
+
+hr {
+    margin-top: 8px;
+    max-width: 400px;
+    border-color: #999999;
+}
+hr#para {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    max-width: 400px;
+    border-color: #999999;
+    margin-left: 10px;
+    margin-right: 10px
+}
+/* This tag is for the heading*/
+.brand { 
+    margin: 0;
+    padding: 30px 0 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,1);
+    font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: normal;
+    color: crimson;
+}
+
+/*----------------- This tags makes the nav bar op black----------------- */
+.navbar-custom {
+    border: none;
+    background: black;
+    background: rgba(0,0,0,0.6);
+}
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+    /* This makes the nav bar home, etc highlight red */
+.nav>li>a:hover {
+    text-decoration: none;
+    color: crimson;
+    background: rgb(238, 238, 238);
+    background-color: rgba(238, 238, 238, 0);
+}
+    /* When not hovered it says white */
+a{
+    color:white;
+}
+    /* This tag makes the toggle lines white or you can't see them */
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+/* ------------------------- End of Nav bar ----------------*/
+        /*This is for the welcome to rutgers text*/
+.brand-name {
+    margin: 0;
+}
+        /*The warning text*/
+p#attention{
+    color: red; 
+}
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+}
+/*---------------------- For images I won't use maybe--------*/
+.img-full {
+    min-width: 100%;
+}
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+/*----------------------- This is for the other heading-----*/
+.brand-before, .brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+/*----------- Important for tag line divider---------------*/
+/*.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+*/
+/*--------------------Box color and size-------------------*/
+.box{
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+@media screen and (min-width:768px) {
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after, .box2:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+/*.box2 {
+    background: transparent;
+}*/
+ol.calendar {
+    padding: inherit;
+}
+
+/*---------------------------------------------Calendar---------------------------*/
+            /*---makes it list looking good */
+li{
+    list-style: none;
+} 
+            /*--- numbers to the side--*/
+li.btn {
+    text-align: -webkit-auto;
+}
+        /*Li li is for current month */
+li li {
+    width: 6em;
+    height:6em;
+    float:left;
+    margin:.2em;
+    padding:.2em;
+    overflow: auto;
+    background: rgba(255, 233, 191, 0.7); 
+}
+/* ----- use it on a smaller screen ---
+li.btn{
+    font-size:.7em;
+    display:block;
+    height:auto;
+    width:auto; 
+    background: none; 
+    margin:0;
+    padding:.2em 0;
+    float:none;
+}
+*/
+li li.holiday{
+
+}
+.day7, .day19 {
+    display: none;
+    font-weight: 600;
+}
+
+
+li#lastmonth li, li#nextmonth li {
+    background: rgba(0,0,0,0.4);
+}
+
+li.meep {
+    width: 6em;
+    height: 40px;
+    background-color: lightcoral;
+    text-align: -webkit-center;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+@media only screen and (max-width: 1200px){
+    li li{
+        width: 6em;
+        height:4em;
+        float:left;
+        margin:.2em;
+        padding:.2em;
+        overflow: auto;
+        background: rgba(255, 233, 191, 0.7); 
+    }
+    li.meep{
+        width: 4em;
+        height: 40px;
+        background-color: lightcoral;
+        text-align: -webkit-center;
+        font-weight: bolder;
+        font-family: cursive;
+    }
+    #days{
+        display:none;
+    }
+    .box2{  
+        background: transparent;
+    }
+    hr#para {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    max-width: 400px;
+    border-color: #999999;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+@media only screen and (max-width: 640px){
+    li li{
+        width: 4em;
+        height:4em;
+        float:left;
+        margin:.2em;
+        padding:.2em;
+        overflow: auto;
+        background: rgba(255, 233, 191, 0.7); 
+    }
+}

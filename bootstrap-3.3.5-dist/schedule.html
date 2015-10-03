@@ -1,112 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <title>Rutgers Club Tennis</title>
-    <link href="css/sch.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Fonts -->
+    <link href=' http://fonts.googleapis.com/css?family=Open+Sans|Josefin+Slab' rel='stylesheet' type='text/css'>
+     <link href=' http://fonts.googleapis.com/css?family=Cinzel+Decorative' rel='stylesheet' type='text/css'>
+
+    <!-- Custom CSS -->
+    <link href="css/schedule.css" rel="stylesheet">
     <link href="css/alert.css" rel="stylesheet">
-  </head>
-  <body>
+
+</head>
+<body>
     <div class="scroll-right">
       <p><strong>Alert !</strong> Please check notification box below</p>
     </div>
-    <div id="header"><h1 id="headline">Rutgers Tennis Club</h1></div>
-    
-    <nav class="navbar navbar-custom" id="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">RUTENNIS</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="schedule.html">Schedule</a></li>
-            <li><a href="#">Achievements</a></li>
-            <li><a href="#">Roster</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-      </div>
+    <!--   Heading   -->
+    <div class = "brand"> Rutgers Tennis Club </div>
+
+    <!-- ================  The navigation =========================== -->
+    <nav class = "navbar navbar-custom" role = "navigation">
+        <div class = "container-fluid">
+            <div class = "navbar-header">
+                <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#bs-example-navbar-collapse-1">
+                    <span class = "sr-only">Toggle navigation</span>
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                </button>
+
+                <!-- =============== hidden nav bar ===================== -->
+                <a class = "navbar-brand" href="test.html">RUTENNIS</a>
+            </div>
+
+            <div class = "collapse navbar-collapse" id = "bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="roster.html">Roster</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div> <!-- container-->
     </nav>
 
-    <div class="body2">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-              <hr>
-                <h2 class="intro-text text-center"><strong> Calendar </strong></h2>
-              <hr></hr>
-              </hr> 
-              <div class = "col-md-8">
-                <ol class = "calendar" start="9">
-                  <h1 id="calheading"> September 2015 </h1>
-                  <li id = "lastmonth">
-                    <ol start = "30">
-                      <li>30</li>
-                      <li>31</li>
-                    </ol>
-                  </li>
+    <!-- ================== Main part of the body ===================== -->
 
-                  <li id = "thismonth">
-                    <ol>
-                      <li>1</li>
-                      <li>2</li>
-                      <li>3</li>
-                      <li>4</li>
-                      <li>5</li>
-                      <li>6</li>
-                      <li>7</li>
-                      <li>8</li>
-                      <li>9</li>
-                      <li>10</li>
-                      <li>11</li>
-                      <li>12</li>
-                      <li>13</li>
-                      <li>14</li>
-                      <li>15</li>
-                      <li>16</li>
-                      <li>17</li>
-                      <li>18</li>
-                      <li>19</li>
-                      <li>20</li>
-                      <li>21</li>
-                      <li>22</li>
-                      <li>23</li>
-                      <li>24</li>
-                      <li>25</li>
-                      <li>26</li>
-                      <li>27</li>
-                      <li>28</li>
-                      <li>29</li>
-                      <li>30</li>
-                    </ol>
-                  </li>
+    <div class = "container" >
+        <div class = "row">
+            <div class = "box">
+                <div class = "col-lg-12 text-center">
 
-                  <li id = "nextmonth">
-                    <ol>
-                      <li>1</li>
-                      <li>2</li>
-                      <li>3</li>
-                    </ol>
-                  </li>
-                </ol>
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+                    <h1 class = "brand-before"><small> Fall 2015 Calendar</small></h1>
+                    <h1 class = "brand-name">September</h1>
+                    <hr class = "tagline-divider">
+           
+                    <div class = "row">
+                        <div class = "box2">
+                            <div class = "col-md-4 text-center">
+                                <h1 ><small> September Events</small></h1>
+                                <hr class = "tagline-divider">
+                                    <hr id="para">
+                                    <hr id="para">
+                                    <hr id="para">
+                                    <hr id="para">
+                                    <li class = "day7">Involvement Fair</li>
+                                    
+                                    <li class = "day19">Battle of Sections tournament</li>
+                                
+                            </div><!--cl4-->
+                            <div class = "col-md-8 text-center">
+                                <ol class = "calendar" start="9">
+                                    <li id = "days">
+                                      <ol>
+                                        <li class ="meep"> Sun</li>
+                                        <li class ="meep"> Mon</li>
+                                        <li class ="meep"> Tue</li>
+                                        <li class ="meep"> Wed</li>
+                                        <li class ="meep"> Thu</li>
+                                        <li class ="meep"> Fri</li>
+                                        <li class ="meep"> Sat</li>
+                                      </ol>
+                                    </li> <!--heading days-->
+
+                                    <li id = "lastmonth">
+                                      <ol start = "30">
+                                        <li class = "btn">30</li>
+                                        <li class = "btn">31</li>
+                                      </ol>
+                                    </li>
+
+                                    <li id = "thismonth">
+                                      <ol>
+                                        <li class = "btn">1</li>
+                                        <li class = "btn">2</li>
+                                        <li class = "btn">3</li>
+                                        <li class = "btn">4</li>
+                                        <li class = "btn">5</li>
+                                        <li class = "btn">6</li>
+                                        <li class = "btn" id ="day7">7<strong>*</strong></li>
+                                        <li class = "btn">8</li>
+                                        <li class = "btn">9</li>
+                                        <li class = "btn">10</li>
+                                        <li class = "btn">11</li>
+                                        <li class = "btn">12</li>
+                                        <li class = "btn">13</li>
+                                        <li class = "btn">14</li>
+                                        <li class = "btn">15</li>
+                                        <li class = "btn">16</li>
+                                        <li class = "btn">17</li>
+                                        <li class = "btn">18</li>
+                                        <li class = "btn" id = "day19">19<strong>*</strong></li>
+                                        <li class = "btn">20</li>
+                                        <li class = "btn">21</li>
+                                        <li class = "btn">22</li>
+                                        <li class = "btn">23</li>
+                                        <li class = "btn">24</li>
+                                        <li class = "btn">25</li>
+                                        <li class = "btn">26</li>
+                                        <li class = "btn">27</li>
+                                        <li class = "btn">28</li>
+                                        <li class = "btn">29</li>
+                                        <li class = "btn">30</li>
+                                      </ol>
+                                    </li>
+
+                                    <li id = "nextmonth">
+                                      <ol>
+                                        <li class = "btn">1</li>
+                                        <li class = "btn">2</li>
+                                        <li class = "btn">3</li>
+                                      </ol>
+                                    </li>
+                                    <p> <strong>*</strong>click for information </p>
+                                </ol><!--calendar-->
+                            </div> <!--cl8-->
+
+                        </div> <!-- box -->
+                    </div> <!-- row  -->
+                    
+                </div>
+            </div> <!-- box -->
+        </div> <!-- row 1 -->
+
+        <!--======================== Body 2 ============================-->
+
+    <div class = "row">
+        <div class = "box">
+            <div class = "col-lg-12">
+                <hr>
+                <h2 class = "intro-text text-center"><small> Events for Fall Semester 2015 </small></h2>
+                <hr>
+                 <div class = "row">
+                    <div class = "box">
+                        <!-- ====================== Involvement Fair ================= -->
+                        <div class = "col-lg-7" id = "members">
+                           <h3>Involvement Fair</h3>
+                           <p> Come by our table when you attened the involvement fair, meet us, talk to us, share some cool things about yourself!</p>
+                           <p><strong> Date:</strong> September 7th </p>
+                           <p><strong> Time:</strong> 12pm to 4 pm </p> 
+                           <p><strong> Venue:</strong> TBH </p> 
+                            
+                        </div>
+
+                        <div class = "col-lg-5" id = "members">
+                          <img class="img-responsive img-border img-right" src="images/Invol.png" alt="">     
+                        </div>     
+                    
+                        <!-- ======================== Tryouts ================-->
+
+
+                        <div class = "col-lg-7" id = "members">
+                            <h3>Tryouts Fall 2015</h3>
+                            <p> We will be holding try outs for Rutgers students, faculty, and staff that want to play tennis competitively! </p>
+                            <p> If you are interested in trying out, please contact us through email or talk to us at the Involvement Fair</p>
+                            <p><strong>Date: </strong> <i>September 12th and 13th</i></p>
+                            <p><strong>Time: </strong> TBH</p> 
+                            <p><strong>Venue:</strong> TBH </p> 
+                            
+                        </div>
+
+                        <div class = "col-lg-5" id = "members"> 
+                            <img class="img-responsive img-border img-right" src="images/pic2.jpg" alt="">    
+                        </div>
+
+                        <!-- ======================== Practices ===============-->
+                        <div class = "col-lg-7" id = "members">
+                           <h3>Practices Fall 2015</h3>
+                           <p> Outdoor practices will be starting soon, and will be held on Livingston courts or Cook Courts. Soon we will be moving into indoor courts so saty tuned of that day!</p>
+                           <p><strong> Date:</strong> September 14th onwards </p>
+                           <p><strong> Time:</strong> 9pm to 11pm </p> 
+                           <p><strong> Venue:</strong> Livi or Cook </p> 
+                            
+                        </div>
+
+                        <div class = "col-lg-5" id = "members">
+                             
+                        </div>     
+                        <!-- ========================Battle of sections =======-->
+                        <div class = "col-lg-5" id = "members">
+                            <img class="img-responsive img-border img-right" src="images/battles.jpg" alt="">       
+                        </div>
+
+                        <div class = "col-lg-7" id = "members">
+                           <h3>Battle of Sections</h3>
+                           <p> Rutgers Travel Team will be representing USTA Eastern and will be competing against different Universities from Four USTA Section (USTA Mid-Atlantic, USTA Eastern, USTA Middle States and USTA Eastern) </p>
+                           <p><strong> September 19th-20th </strong></p>
+                           <p><strong> Sea Colony, Delaware</strong></p> 
+
+                           <p><strong>*</strong><small>Travel team members only (Want to play competitively, try out for the travel team)</small></p>
+                            
+                        </div>
+
+                    </div> <!-- box1 -->
+                </div> <!-- row -->
+
+            </div>
+        </div> <!-- box1 -->
+    </div> <!-- row -->
+    </div> <!-- ========= container ===========-->   
+
+    <!--=======================================SCRIPT=============================-->
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#day7").click(function(){
+              $('.day7').fadeToggle(1000);
+            });
+            $("#day19").click(function(){
+              $('.day19').fadeToggle(1000);
+            });
+        });
+    </script>
+
+</body>
 </html>
-
