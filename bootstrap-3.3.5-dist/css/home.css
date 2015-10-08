@@ -82,6 +82,7 @@ p#attention{
 p {
     font-size: 1.25em;
     line-height: 1.6;
+    color:white;
 }
 .img-full {
     min-width: 100%;
@@ -89,6 +90,7 @@ p {
 
 .brand-before, .brand-name {
     text-transform: capitalize;
+    color:white;
 }
 
 .brand-before {
@@ -105,7 +107,7 @@ p {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(0,0,0,0.6);
 }
 
 .intro-text {
@@ -181,4 +183,7 @@ p {
 
 div#members {
     background: rgba(0,0,0,0.1);
+}
+h2.intro-text.text-center{
+    color:white;
 }

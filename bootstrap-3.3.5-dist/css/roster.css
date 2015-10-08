@@ -18,6 +18,7 @@ h1, h2{
 /*----- open when paragraph is used*/
 
 hr {
+    margin-top: 8px;
     max-width: 400px;
     border-color: #999999;
 }
